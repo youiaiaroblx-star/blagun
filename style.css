@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #111;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: #000;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00ff88;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #00ff88;
+  color: black;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Section */
+.section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.dark {
+  background: #1b1b1b;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+  min-width: 150px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #00ff88;
+  color: black;
+}
+/* รูปโปรไฟล์ */
+.profile-img {
+  width: 260px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 25px #00ff88);
+  transition: 0.4s;
+}
+
+.profile-img:hover {
+  transform: scale(1.08) rotate(-2deg);
+}
+.card,
+.card:visited,
+.card:active,
+.card:link {
+  color: white;
+  text-decoration: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+.card:hover {
+  background: #00ff88;
+  color: black;
+}
